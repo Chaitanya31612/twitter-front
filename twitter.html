@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <style>
+    *{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Arial';
+    }
+
+    a{
+        text-decoration: none;
+    }
+    
+    .first {
+        width: 50%;
+        height: 100vh;
+        background: #1DA1F2;
+        padding: 15% 10%;
+
+    }
+    .first > div {
+        display: flex;
+        align-items: center;
+        font-size: 1.5rem;
+        
+    }
+    .first div p{
+        font-weight: bold;
+        color: #fff;
+        font-size: 1.8rem;
+        padding: 1.5rem 1.8rem;
+    }
+
+    .first div i{
+        color: white;
+    }
+
+    .second {
+        width: 50%;
+        height: 100vh;
+       position: absolute;
+       top: 30%;
+       left: 60%;
+    }
+
+    .second p {
+    	font-weight: bold;
+       	font-size: 1.8rem;
+    }
+    .second i{
+        color: #1DA1F2;
+    }
+
+    .button {
+	  width: 70%;
+	  border: 1px solid #1DA1F2;
+	  color: black;
+	  padding: 15px;
+	  text-align: center;
+	  text-decoration: none;
+	  font-size: 16px;
+	  margin: 3px 1px;
+	  border-radius: 35px;
+	}
+
+    .btn {
+    	display: flex;
+    	flex-direction: column;
+    }
+    .btn-sign {
+    	color: white;
+    	background: #1DA1F2;
+    }
+    .btn-sign:hover {
+    	background: white;
+    	transition: 0.5s;
+    	color: #1DA1F2;
+    }
+    
+    </style>
+    <title>Twitter. It's what's happening.</title>
+  </head>
+  <body scroll="no" style="overflow: hidden">
+    <div class="container">
+      <div class="first">
+        <div>
+          <i class="fas fa-search fa-2x"></i>
+          <p>Follow your interests.</p>
+        </div>
+        <div>
+          <i class="fas fa-user-friends fa-2x"></i>
+          <p>Hear what people are talking about.</p>
+        </div>
+        <div>
+          <i class="fas fa-comment fa-2x"></i>
+          <p>Join the conversation.</p>
+        </div>
+      </div>
+      <div class="second">
+        <i class="fab fa-twitter fa-2x"></i>
+        <br><br>
+        <!-- <a href="#" class="btn-log">Log In</a> -->
+        <p>See what's happening <br /> in the world right now.</p>
+        <br> <br>
+        <p style="font-size:1.3rem;">Join Twitter Today.</p>
+        <br>
+        <div class="btn">
+	        <a href="#" class="btn-sign button">Sign Up</a>
+	        <br>
+	        <a href="#" class="btn-log button">Log In</a>
+    	</div>
+      </div>
+    </div>
+  </body>
+</html>
